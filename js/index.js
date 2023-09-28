@@ -2,12 +2,12 @@
 
 let writeSomething = document.querySelector('#write-something');
 let showWrittenText = document.querySelector('.show-written-text');
-let printer = document.querySelector('#printer');
+let resetButton = document.querySelector('#reset-button');
 
-writeSomething.addEventListener('keydown', () => {
+writeSomething.addEventListener('keyup', () => {
     showWrittenText.textContent = writeSomething.value;
 });
 
-printer.addEventListener('click', () => {
-    showWrittenText.textContent = writeSomething.value;
+resetButton.addEventListener('click', () => {
+    showWrittenText.textContent = writeSomething.value = '';
 });
