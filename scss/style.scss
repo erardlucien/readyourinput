@@ -132,6 +132,8 @@ $clr-hover: rgb(255, 165, 0);
     background-color: $clr-secondary;
     font-size: var(--font-size);
     color: $clr-ternary;
+    line-break: anywhere;
+    max-width: 20rem;
 
     &:not(:empty) {
         margin-top: 2rem;
