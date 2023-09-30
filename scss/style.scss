@@ -132,7 +132,7 @@ $clr-hover: rgb(255, 165, 0);
     background-color: $clr-secondary;
     font-size: var(--font-size);
     color: $clr-ternary;
-    line-break: anywhere;
+    line-break: strict;
     max-width: 20rem;
 
     &:not(:empty) {
