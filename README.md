@@ -1,3 +1,3 @@
 # readyourinput 
 
-https://erardlucien.github.io/readyourinput/
+[demo](https://erardlucien.github.io/readyourinput/)
